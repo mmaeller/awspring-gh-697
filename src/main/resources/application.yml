@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    aws:
+      credentials:
+        access-key: accessKey
+        secret-key: secretKey
+      region:
+        static: eu-central-1
+
+sqs:
+  name: my-queue
